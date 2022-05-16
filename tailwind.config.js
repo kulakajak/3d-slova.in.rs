@@ -7,6 +7,7 @@ module.exports = {
     "./*.md",
     "./*.html",
     "./node_modules/flowbite/**/*.js",
+    "./pages/**/*.{html,js}",
   ],
   theme: {
     theme: {
