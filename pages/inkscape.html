@@ -1,0 +1,43 @@
+---
+layout: default
+title: Inkscape
+---
+
+<div class="flex justify-center">
+  <h1 class="text-3xl font-bold">{{page.title}}</h1>
+</div>
+
+<h2 class="text-xl mb-2">Velicina dokumenta</h2>
+Velicina dokumenta treba da bude x
+<h2 class="text-xl mb-2">Trace to bitmap</h2>
+Ova komanda pretvara rastersku sliku u vektorsku. Neophodno za dalju pripremu
+stampe.
+<h2 class="text-xl mb-2">Object to path</h2>
+Izaberi odredjeni objekat i klikni u gornjem meniju na Path, zatim Object to
+path. Kada kliknes N pojavice se tackice (nodes) koje omogucavaju manipulisanje
+objekta. Objekat mora biti pretvoren u path da bi priprema bila uspesna.
+<h2 class="text-xl mb-2">Union/Difference</h2>
+Kada su vise objekata povezani preko union komande oni postaju jedna celina. Svi
+objekti ce dobiti boju onog objekta koji je prvi nastao. Koriscenjem difference
+komande jedan objekat u potpunosti nestaje, pri cemu se stvara praznina na mestu
+gde se jedan objekat sekao sa drugim. Nestace onaj objekat koji je bio ispred
+drugog objekta. Ovo je korisno za pripremu stampe zbog toga sto zagrejana zica
+ne moze da stane ni u jednom trenutku tokom izrade oblika. Koriscenjem
+difference opcije omogucavamo masini da napravi oblik kao sto je npr. slovo O.
+Ukoliko zelimo da CNC napravi neku rec potrebno ju je spojiti necim (npr. malim
+pravougaonim oblicima) zbog gore napomenutog razloga.
+<h2>Korisne precice na tastaturi</h2>
+<h3>Mis</h3>
+<p>Shift + tockic - zoom</p>
+<p>Klik na tockic - omogucava kretanje po canvas-u</p>
+<p>Shift + right click - omogucava kretanje po canvas-u</p>
+<p>S - select</p>
+<p>N - node</p>
+<p>U - bucket</p>
+<p>Click na paletu boja na dnu - fill</p>
+<p>Shift + click - stroke (oboji okvir objekta)</p>
+<p>S - select</p>
+<p>S - select</p>
+<p>S - select</p>
+<h2 class="text-xl mb-2">Konfigurisanje slike za Arduino program</h2>
+...
