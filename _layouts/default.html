@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D slova</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
+  </head>
+
+  <header>{% include navbar.html %}</header>
+  <body>
+    {{ content }}
+    <footer>{% include footer.html %}</footer>
+
+    <!-- This works because it's in _site folder !-->
+    <script src="{{site.baseurl}}/assets/js/flowbite-workaround.js"></script>
+
+    <!-- This cannot work until node_modules get included in _site folder -->
+    <!-- <script src="{{site.baseurl}}/node_modules/flowbite/dist/flowbite.js"></script> -->
+  </body>
+</html>
