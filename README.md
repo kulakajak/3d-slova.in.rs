@@ -26,6 +26,15 @@ To deploy you can run
 rake
 ```
 
+Since we do not use finger print for assets, changes in stylesheets probably
+will not be visible right away.
+You can check latest styles with
+```
+curl 3d-slova.in.rs/assets/css/main.css
+```
+but better is to disable cache in dev tools
+![disable_cache](doc/disable_cache.png "Disable cache")
+
 To see actual site you can download gh-pages branch
 ```
 git checkout -t origin/gh-pages
