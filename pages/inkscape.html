@@ -1,36 +1,33 @@
 ---
 layout: default
-title: Inkscape
-lastbgclr: red-50
-current: 2
 ---
 
 <div class="bg-red-50">
-  <div class="flex justify-start ml-6 pb-8">
-    <h1 class="text-3xl font-bold mt-8">{{page.title}}</h1>
+  <div class="flex justify-start pb-8 ml-6">
+    <h1 class="mt-8 text-3xl font-bold">{{page.title}}</h1>
   </div>
 </div>
 
 <div class="flex flex-col">
   <div class="bg-red-100">
-    <div class="mx-8 p-3">
-      <h2 class="text-2xl mb-1">Veličina dokumenta</h2>
-      <p class="text-lg ml-4">Veličina dokumenta treba da bude 400x400 cm.</p>
+    <div class="p-3 mx-8">
+      <h2 class="mb-1 text-2xl">Veličina dokumenta</h2>
+      <p class="ml-4 text-lg">Veličina dokumenta treba da bude 400x400 cm.</p>
     </div>
   </div>
   <div class="bg-red-50">
-    <div class="mx-8 p-3">
-      <h2 class="text-2xl mb-2">Trace to bitmap</h2>
-      <p class="text-lg ml-4">
+    <div class="p-3 mx-8">
+      <h2 class="mb-2 text-2xl">Trace to bitmap</h2>
+      <p class="ml-4 text-lg">
         Ova komanda pretvara rastersku sliku u vektorsku. Neophodno za dalju
         pripremu stampe.
       </p>
     </div>
   </div>
   <div class="bg-red-100">
-    <div class="mx-8 p-3">
-      <h2 class="text-2xl mb-1">Object to path</h2>
-      <p class="text-lg ml-4">
+    <div class="p-3 mx-8">
+      <h2 class="mb-1 text-2xl">Object to path</h2>
+      <p class="ml-4 text-lg">
         Izaberi odredjeni objekat i klikni u gornjem meniju na Path, zatim
         Object to path. Kada klikneš "n" pojavice se tačke na objektu (nodes)
         koje omogućavaju manipulisanje objekta. Objekat mora biti pretvoren u
@@ -39,9 +36,9 @@ current: 2
     </div>
   </div>
   <div class="bg-red-50">
-    <div class="mx-8 p-3">
-      <h2 class="text-2xl mb-2">Union/Difference</h2>
-      <p class="text-lg ml-4">
+    <div class="p-3 mx-8">
+      <h2 class="mb-2 text-2xl">Union/Difference</h2>
+      <p class="ml-4 text-lg">
         Kada je više objekata povezano preko union komande oni postaju jedna
         celina. Svi objekti će naslediti boju onog objekta koji je prvi nastao.
         Korišćenjem difference komande jedan objekat u potpunosti nestaje, pri
@@ -56,48 +53,48 @@ current: 2
     </div>
   </div>
   <div class="bg-red-100">
-    <div class="mx-8 p-3 pb-10">
-      <h2 class="text-2xl mb-2">Korisne prečice na tastaturi</h2>
+    <div class="p-3 pb-10 mx-8">
+      <h2 class="mb-2 text-2xl">Korisne prečice na tastaturi</h2>
       <div class="flex">
-        <div class="w-1/2 flex flex-col items-end">
-          <p class="ml-5 mt-1">
-            <kbd class="bg-gray-800 rounded-md p-1">Shift</kbd> +
-            <kbd class="bg-gray-800 rounded-md p-1">wheel</kbd>
+        <div class="flex flex-col items-end w-1/2">
+          <p class="mt-1 ml-5">
+            <kbd class="p-1 bg-gray-800 rounded-md">Shift</kbd> +
+            <kbd class="p-1 bg-gray-800 rounded-md">wheel</kbd>
           </p>
           <p class="ml-5 mt-2.5">
-            <kbd class="bg-gray-800 rounded-md p-1">wheel</kbd>
+            <kbd class="p-1 bg-gray-800 rounded-md">wheel</kbd>
           </p>
           <p class="ml-5 mt-2.5">
-            <kbd class="bg-gray-800 rounded-md p-1">S</kbd>
+            <kbd class="p-1 bg-gray-800 rounded-md">S</kbd>
           </p>
           <p class="ml-5 mt-2.5">
-            <kbd class="bg-gray-800 rounded-md p-1">N</kbd>
+            <kbd class="p-1 bg-gray-800 rounded-md">N</kbd>
           </p>
           <p class="ml-5 mt-2.5">
-            <kbd class="bg-gray-800 rounded-md p-1">U</kbd>
+            <kbd class="p-1 bg-gray-800 rounded-md">U</kbd>
           </p>
           <p class="ml-5 mt-2.5">
-            <kbd class="bg-gray-800 rounded-md p-1">Shift</kbd> +
-            <kbd class="bg-gray-800 rounded-md p-1">Click</kbd>
+            <kbd class="p-1 bg-gray-800 rounded-md">Shift</kbd> +
+            <kbd class="p-1 bg-gray-800 rounded-md">Click</kbd>
           </p>
         </div>
-        <div class="w-1/2 flex flex-col items-start justify-between">
-          <p class="ml-5 mt-1">
+        <div class="flex flex-col items-start justify-between w-1/2">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">zoom</span>
           </p>
-          <p class="ml-5 mt-1">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">omogućava kretanje po canvas-u</span>
           </p>
-          <p class="ml-5 mt-1">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">select</span>
           </p>
-          <p class="ml-5 mt-1">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">node</span>
           </p>
-          <p class="ml-5 mt-1">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">bucket</span>
           </p>
-          <p class="ml-5 mt-1">
+          <p class="mt-1 ml-5">
             <span class="ml-5 text-md">stroke (oboji okvir objekta)</span>
           </p>
         </div>
@@ -106,8 +103,8 @@ current: 2
   </div>
 </div>
 <div class="bg-red-50">
-  <div class="mx-8 p-3">
-    <h2 class="text-2xl mb-2">Konfigurisanje slike za Arduino program</h2>
+  <div class="p-3 mx-8">
+    <h2 class="mb-2 text-2xl">Konfigurisanje slike za Arduino program</h2>
     <p class="text-lg mt-1.5 ml-4">
       Potrebno je odrediti početnu tačku odakle će mašina krenuti sa sečenjem.
       Klikni dvaput na oblik i zatim izaberi node koji se nalazi u donjem levom

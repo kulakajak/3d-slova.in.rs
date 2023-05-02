@@ -1,8 +1,5 @@
 ---
 layout: default
-title: GIMP
-lastbgclr: red-50
-current: 1
 ---
 
 # Inkscape

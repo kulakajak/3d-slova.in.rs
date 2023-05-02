@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>3D slova</title>
+    <title>{{ page.title | append: " | " | append: site.title }}</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -9,10 +9,15 @@
     />
   </head>
 
-  <header>{% include navbar.html %}</header>
   <body>
+    <header>{% include navbar.html %}</header>
     {{ content }}
-    <footer>{% include footer.html %}</footer>
+    <footer>
+      <div class="flex items-end justify-start p-10 space-x-5">
+        <p class="text-xl">Kontaktirajte nas:</p>
+        <p class="text-xl text-yellow-300">salji@trk.in.rs</p>
+      </div>
+    </footer>
 
     <!-- This works because it's in _site folder !-->
     <script src="{{site.baseurl}}/assets/js/flowbite.js"></script>
