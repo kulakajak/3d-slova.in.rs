@@ -1,6 +1,11 @@
 # 3D Foam letters
 
 This is a repo for http://3d-slova.in.rs/
+TODO: add online svg creator https://github.com/SVG-Edit/svgedit 
+
+TODO: italy costycnc boboaca costel  https://www.youtube.com/channel/UCgZyZAxu2SkYqpyaNQ018Wg
+
+plyshaper.eu https://www.youtube.com/@polyshaper
 
 # Developing
 
