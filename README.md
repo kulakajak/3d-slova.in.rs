@@ -3,7 +3,19 @@
 This is a repo for http://3d-slova.in.rs/
 TODO: add online svg creator https://github.com/SVG-Edit/svgedit 
 
-TODO: italy costycnc boboaca costel  https://www.youtube.com/channel/UCgZyZAxu2SkYqpyaNQ018Wg
+italy costycnc boboaca costel  https://www.youtube.com/channel/UCgZyZAxu2SkYqpyaNQ018Wg
+Watched:
+* DIY backdrop name Marcela in Styrofoam with Costycnc Editor(Italian with
+  English Subtitles)
+  https://www.youtube.com/watch?v=Ol8hBjtfKW4&t=17s
+* Tutorial scritta con onda sotto con Ploter taglia polistirolo cnc Costycnc
+  online program gratuito
+  https://www.youtube.com/watch?v=GLXQB6iYU10
+* Portaconfetti 18 polistirolo - candy confetti holder styrofoam - costycnc
+  https://www.youtube.com/watch?v=05c0yXV_WpY&t=7s
+* Costycnc tutorial styrofoam creations with foam cutter macchine how create
+  foam letters timestamp
+  https://www.youtube.com/watch?v=04c1aX387Dc
 
 plyshaper.eu https://www.youtube.com/@polyshaper
 
